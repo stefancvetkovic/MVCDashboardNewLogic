@@ -16,6 +16,13 @@ namespace BVC.MVCDashboard.WebApplication
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            InitBinders();
+
+        }
+
+        public void InitBinders()
+        {
+
         }
     }
 }
